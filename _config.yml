@@ -103,9 +103,9 @@ theme: hexo-theme-aomori
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: <BohaoChng.github.io> #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  branch: [gh-pages]
-  message: [message]
+  repo: https://github.com/BohaoChng/BohaoChng.github.io #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  branch: gh-pages
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
 
 aomori_logo: /images/avatar.jpg
 aomori_logo_typed_animated: true
